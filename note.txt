@@ -1,0 +1,16 @@
+NEXT JS INSTALL
+npx create-next-app@latest
+
+prisma and mongodb
+npm install prisma --save-dev
+npm install @prisma/client
+npx prisma init
+
+
+to sync DATABASE_URL
+npx prisma generate 
+npx prisma db push
+
+
+to handle submit Data
+npm i axios
